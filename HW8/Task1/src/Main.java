@@ -27,7 +27,7 @@ public class Main {
             System.out.println(array[i]);
         }*/
 
-            //#4 *** Задание особой сложности. Развернуть массив(см конец урока).
+            //#4 *** Задание особой сложности. Развернуть массив.
         for (int i = 0; i < array.length/2; i++) {
             int temp = array[i];
             array[i] = array[array.length - (1+i)];
