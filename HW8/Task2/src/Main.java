@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        //todo код программы писать тут
+        int[] array = new int[5];
+
+        System.out.println (array[2]);
     }
 }
